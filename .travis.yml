@@ -12,8 +12,8 @@ deploy:
   provider: heroku
   api_key:
     secure: CVflqFIRCPXWVG9t6q6CDFm5+NGawEVY61J3hm4+stA3+lBG6x7wX4WYglXBA0vhsktz/+fdDcJ0ZFzlhWDUt2VzbpOb8jMSeI0r/yFly7VW4w2Jtsum0wk2ZQVeaCkHzUYCOV2UG+Cpl2YnstlKQDywogzM3Zr/M46kjF8TMF+7FFUzM2qxq4usf3Qs4SOyY9i8Ziu6Qv2blI9T92Xw2aJmlRckf2ayJBnuuDQtDcEB13lGMVsC4ABIWpAGv5pkSCaPisT/DDhmXOgEZ/l7a5aubFMnc8ybUxxaB2/pNqRe8G6LGWqzXZfOcLdYvVY/YAyBJ5mXf6W85maALHVIx1tC1XOF6htctBh5RKkjIwzuhh3EB654/tkJAweBrzM8iIxYDZxRPORrmEj8OJBr0nxRDiBjB5xkWIYqjObGer/JPnhLEQ0q2blYpCDq72HXOn6M3XQaywZANL4XL3X6kaOU9N46b8wrmMmP9NrMv0vEAyL1w5XZ2PPKMg4FQHoO5GUinUijYAMFgG5CKalT7bYgVTKVmF+HT6HO+bns/s63hrqhPHCuHAF6swjCOH1xrPfNKbnqmiW3q0zBt0E+13T0MyulDcJDkkx9nmASpzn+x0HmieaT/f30EiAoXhhsxsb6Riw1s4CmcerCmhV6Tdrxnliy7QmKGJ15PFv6S0Y=
-  app: hello-world-app-heroku-testing
-  on:
-    repo: chloehkwong1/continuous_integration
+  # app: hello-world-app-heroku-testing
+  # on:
+  #   repo: chloehkwong1/continuous_integration
   before_install:
   - gem install bundler
