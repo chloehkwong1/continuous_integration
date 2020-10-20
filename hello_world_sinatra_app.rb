@@ -1,9 +1,4 @@
 # Sinatra sample app.
-# 
-# Usage:
-# $ sudo gem install sinatra
-# $ ruby this_file.rb
-# $ open http://0.0.0.0:4567/
 
 require "rubygems"
 require "sinatra"
