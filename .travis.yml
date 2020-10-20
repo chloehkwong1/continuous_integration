@@ -1,13 +1,13 @@
 language: ruby
 # cache:
 # - bundler
-before_script:
-- bundle exec rake db:create
-- bundle exec rake db:migrate
-- bundle exec rake assets:precompile
+# before_script:
+# - bundle exec rake db:create
+# - bundle exec rake db:migrate
+# - bundle exec rake assets:precompile
 # script: bundle exec rspec
-# rvm:
-#  - 2.6.6
+rvm:
+- 2.6.6
 deploy:
   provider: heroku
   api_key:
@@ -15,3 +15,5 @@ deploy:
   app: hello-world-app-heroku-testing
   on:
     repo: chloehkwong1/continuous_integration
+  before_install:
+  - gem install bundler
